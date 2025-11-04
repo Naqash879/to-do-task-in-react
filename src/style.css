@@ -1,0 +1,93 @@
+/* background aur centering ke liye */
+.login-container {
+  height: 100vh;              /* pura screen height */
+  display: flex;              /* flexbox use karenge */
+  justify-content: center;    /* horizontally center */
+  align-items: center;        /* vertically center */
+  background-color: aquamarine;  /* halki background */
+}
+
+/* form design */
+.login-form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-form input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 6px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+#showPassword
+{
+    width: 5% !important;
+}
+.login-Btn {
+  width: 20%;
+  padding: 10px;
+  background-color: #83ce7c !important;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+.login-Details
+{
+    text-align: center;
+}
+.forgot-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;         /* space between items */
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.forgot-btn {
+    width: 100px !important;
+  background: none !important;
+  border: none !important;
+  color: #83ce7c !important;
+  font-size: 15px !important;
+  cursor: pointer !important;
+  padding: 0 !important;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.forgot-btn:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+.noAccount-Section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;           /* space between items */
+  margin-top: 20px;
+  font-size: 16px;
+}

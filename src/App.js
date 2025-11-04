@@ -1,10 +1,5 @@
+import SignIn from "./SignIn.js";
 function App() {
-  return (
-    <div>
-      <h1>Hello Naqash!</h1>
-      <p>Welcome</p>
-    </div>
-  );
+  return <SignIn />;
 }
-
 export default App;
