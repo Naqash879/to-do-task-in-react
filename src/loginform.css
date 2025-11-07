@@ -1,0 +1,15 @@
+.loginForm-Container
+{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.loginForm input{
+    display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
